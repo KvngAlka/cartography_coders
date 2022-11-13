@@ -1,0 +1,30 @@
+.comments{
+    display: grid;
+    place-items: center;
+    background-color: var(--white);
+}
+
+.comment_box{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comment_box > div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.comment_box button{
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

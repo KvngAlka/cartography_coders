@@ -1,0 +1,37 @@
+nav{
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white);
+    z-index: 10;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    background-color: var(--secondary-color);
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.navlinks a {
+    height: 100%;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navlinks a.active{
+    border-bottom: 1px solid var(--primary-color);
+}

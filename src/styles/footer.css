@@ -1,0 +1,31 @@
+.footer{
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(20, 20, 20);
+    /* background-color: var(--secondary-color); */
+    font-weight: normal;
+    padding: 30px 20px;
+    color: var(--white);
+}
+
+.footer .top{
+    display: flex;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer .top input{
+    width: 400px;
+}
+
+.footer button{
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 120px;
+    cursor: pointer;
+}

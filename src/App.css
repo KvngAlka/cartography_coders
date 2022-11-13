@@ -1,0 +1,6 @@
+.App{
+  width: 100%;
+  position: relative;
+  background-color: rgb(248, 248, 248);
+  min-height: 100vh;
+}
