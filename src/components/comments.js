@@ -5,7 +5,7 @@ const Comments = () => {
   return (
     <section className='comments'>
 
-        <div className='comment_box'>
+        <div className='comment_box'  data-aos='fade-up' data-aos-duration = '200'>
             <h2>Leave a comment</h2>
             <div>
                 <input type="text" name="name" id="name" placeholder='Name' />

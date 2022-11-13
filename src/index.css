@@ -3,7 +3,7 @@
   /* COLOR */
   --primary-color : rgb(14, 58, 14);
   --secondary-color : rgb(224, 151, 14);
-  --tertiary-color : rgb(217, 252, 217);
+  --tertiary-color : rgb(238, 238, 238);
 
 
   --white : white;
@@ -58,4 +58,10 @@ textarea{
 input:focus-within,
 textarea:focus-within{
   border: 3px solid var(--primary-color);
+}
+
+button{
+  border: none;
+  outline: none;
+  cursor: pointer;
 }

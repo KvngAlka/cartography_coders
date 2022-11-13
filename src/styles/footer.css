@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     min-height: 50vh;
-    background-color: rgb(20, 20, 20);
+    background-color: var(--primary-color);
     /* background-color: var(--secondary-color); */
     font-weight: normal;
     padding: 30px 20px;

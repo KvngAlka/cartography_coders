@@ -6,6 +6,14 @@ const Intro = () => {
   return (
     <section className='intro'>
       <img src={imgUrl} alt="" />
+      <div className='intro_text_box'>
+        <div>
+          <h1>
+            Cartography Coders
+          </h1>
+          <h4>Helping the world with tech</h4>
+        </div>
+      </div>
 
     </section>
   )
